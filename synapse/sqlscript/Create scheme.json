@@ -1,0 +1,17 @@
+{
+	"name": "Create scheme",
+	"properties": {
+		"content": {
+			"query": "/*Select \n    *\n     from \n     OPENROWSET (\n        BULK 'https://storagevamshi177.dfs.core.windows.net/silver/AdventureWorks_Calendar/',\n        FORMAT = 'PARQUET'\n     ) a */\n\nCREATE SCHEMA GOLD;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "AW-database",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

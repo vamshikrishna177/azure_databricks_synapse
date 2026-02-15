@@ -1,0 +1,7 @@
+{
+	"name": "synapse-ws-custstgacct--azuresynapse177-synapseazuredata",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/b5bfe5c3-3ff3-40bd-a564-a4a244d9363f/resourceGroups/Vamshi177/providers/Microsoft.Storage/storageAccounts/synapseazuredata",
+		"groupId": "dfs"
+	}
+}
