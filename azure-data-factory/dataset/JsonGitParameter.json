@@ -1,0 +1,20 @@
+{
+	"name": "JsonGitParameter",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azurestoragelake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Json_ds.json",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
