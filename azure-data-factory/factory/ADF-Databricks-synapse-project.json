@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Databricks-synapse-project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4331e273-1265-48d5-927a-2bed105136c3",
+		"tenantId": "7d2d9779-5bfd-47ef-860c-e6fa57eb75d6"
+	}
+}
